@@ -492,26 +492,88 @@ a img.aligncenter {
 
 /* III.b.i Beta skills page. */
 .nskills-title {
-	width: 13.5%;
-	min-width: 160px;
+	width: 15.5%;
+	min-width: 180px;
 }
 
 .nskills-body {
     width: 80%;
     text-align: left;
     vertical-align: middle;
-    margin: 0 1%;
+    margin-left: 3%;
+    padding-left: 0;
     white-space: normal;
+    border-bottom: 4px solid #e1e4e8;
+    padding-bottom: 1rem;
 }
 
 p.nskills-body-copy {
-	padding-right: 2%;
+	font-size: 1.01rem;
 }
 
 .nskills-section {
-	max-width: 99%;
+	max-width: 90%;
 	white-space: nowrap;
 	margin: 0.5rem 0.9rem 2rem 0.9rem;
+}
+
+.nskills-section:last-of-type {
+	margin-bottom: 0.5rem;
+}
+
+#nskills-section6-body {
+	border-bottom: none;
+}
+
+.nskills-body-title {
+	font-weight: bold;
+	font-size: 1.25rem;
+	margin-bottom: 0.6em;
+	margin-top: 0.8em;
+}
+
+.nskills-body-title:first-of-type,
+.nskills-body-half-title:first-of-type {
+	margin-top: 0;
+}
+
+.nskills-body-half-title {
+	margin-bottom: 0.3em;
+	margin-top: 0.8em;
+}
+
+.nskills-body-half-title h3 {
+	display: inline;
+	font-size: 1.25rem;
+}
+
+.nskills-body-half-title h3:first-of-type {
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+#nskills-section2-body {
+	text-align: center;
+	padding-bottom: 1.8rem;
+}
+
+.nskills-body .skill-item {
+	margin-left: 0;
+	margin-right: 16px;
+	text-align: center;
+	width: 23.2%;
+	min-width: 240px;
+}
+
+.nskills-body-list {
+	font-size: 1.01rem;
+	padding-left: 30px;
+	margin-top: 0;
+}
+
+.nskills-body-list li {
+	padding-left: 10px;
+	margin-bottom: 5px;
 }
 
 /* III.c. Tech page. */
