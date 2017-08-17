@@ -13,12 +13,12 @@
 		
 		<div id="footer-contact" class="footer clearfix">
 			<h3>get in touch.</h3>
-			<p>You can contact me using the email, Twitter or Github links below. Also, you can grab a copy of my CV.</p>
+			<p>You can contact me using the email or Twitter links below. Also, you can take a look at my GitHub and Medium profiles.</p>
 			<div class="contact-icons clearfix">
 				<a href="mailto:<?php bloginfo('admin_email'); ?>"><i class="fa fa-envelope fa-2x footer-fa" aria-hidden="true"></i></a>
 				<a href="https://twitter.com/TheJackUsher"><i class="fa fa-twitter fa-2x footer-fa" aria-hidden="true"></i></a>
 				<a href="https://github.com/jackusher"><i class="fa fa-github-alt fa-2x footer-fa" aria-hidden="true"></i></a>
-				<a href="https://google.com"><i class="fa fa-file-text fa-2x footer-fa" aria-hidden="true"></i></a>
+				<a href="https://medium.com/@jack.usher"><i class="fa fa-medium fa-2x footer-fa" aria-hidden="true"></i></a>
 			</div>
 		</div><!-- /footer-contact -->
 		
