@@ -924,8 +924,80 @@ p.cv-body-copy {
 
 
 
-/* SECTION VI: FOOTER. */
-/* VI.a. General dimensions, margins, and resets. */
+/* SECTION VI: CHATBOT. */
+.bot-container {
+	text-align: center;
+	margin: 3rem 0;	
+}
+
+input#speech {
+    background-color: #82a4e9;
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.14), 0px 2px 2px 0px rgba(0,0,0,0.098), 0px 1px 5px 0px rgba(0,0,0,0.084);
+    color: #fff;
+    font-size: 20px;
+    line-height: 43px;
+    padding: 0 0.75em;
+    width: 400px;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+input#speech textarea {
+    background-color: #82a4e9;
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.14), 0px 2px 2px 0px rgba(0,0,0,0.098), 0px 1px 5px 0px rgba(0,0,0,0.084);
+    color: #606B88;
+    padding: 0.5em;
+    width: 100%;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+input#speech:active, input#speech:focus, input#speech textarea:active, input#speech textarea:focus {
+    outline: 1px solid #2f68db;
+}
+
+.btn {
+    background-color: #82a4e9;
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.14), 0px 2px 2px 0px rgba(0,0,0,0.098), 0px 1px 5px 0px rgba(0,0,0,0.084);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 43px;
+    padding: 0 0.75em;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+.btn:hover {
+    background-color: #2f68db;
+}
+
+.spoken-response {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.35s ease-in;
+}
+
+.spoken-response.is-active {
+    max-height: 400px;
+    max-width: 478px;
+    margin: 2px auto 0 auto;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.14), 0px 2px 2px 0px rgba(0,0,0,0.098), 0px 1px 5px 0px rgba(0,0,0,0.084);
+}
+
+.spoken-response__text {
+    background-color: #888a8f;
+    color: #fff;
+    padding: 1em;
+}
+
+
+
+/* SECTION VII: FOOTER. */
+/* VII.a. General dimensions, margins, and resets. */
 .footer {
 	padding: 1.25em 1.25em 1.25em 30px;
 }
@@ -947,7 +1019,7 @@ p.cv-body-copy {
 	text-decoration: none;
 }
 
-/* VI.b. Contact section. */
+/* VII.b. Contact section. */
 #footer-contact {
 	background-color: #565960;
 }
@@ -986,7 +1058,7 @@ p.cv-body-copy {
 	margin-bottom: 1.25rem;
 }
 
-/* VI.c. Footer menu. */
+/* VII.c. Footer menu. */
 #footer-nav {
 	background-color: white;
 	border-bottom: 2px solid #ddd;
@@ -1012,7 +1084,7 @@ p.cv-body-copy {
 	font-weight: bold;
 }
 
-/* VI.d. Copyright information. */
+/* VII.d. Copyright information. */
 #footer-copyright {
 	background-color: white;
 }
@@ -1027,7 +1099,7 @@ p.cv-body-copy {
 
 
 
-/* SECTION VII: MOBILE AND RESPONSIVE STYLES. */
+/* SECTION VIII: MOBILE AND RESPONSIVE STYLES. */
 @media only screen and (max-width: 1161px) {
     #front-section2-body #front-section2-short {
 		width: 100%;

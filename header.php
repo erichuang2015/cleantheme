@@ -17,6 +17,7 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="viewport" content="width=device-width">
 		<script src="https://use.fontawesome.com/b5ba9501bd.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<?php wp_head(); ?>
 	</head>
 	
